@@ -1,0 +1,31 @@
+name: moch_s_application
+description: A new Flutter project.
+version: 1.0.0+1
+environment: 
+  sdk: ^3.6.0
+dependencies: 
+  flutter: 
+    sdk: flutter
+  flutter_localizations: 
+    sdk: flutter
+  cached_network_image: ^3.3.0
+  flutter_svg: ^2.0.9
+  shared_preferences: ^2.5.3
+  connectivity_plus: ^6.1.4
+  web: any
+dev_dependencies: 
+  flutter_test: 
+    sdk: flutter
+flutter: 
+  uses-material-design: true
+  assets: 
+    - assets/
+    - assets/images/
+    - assets/images/img_as6134232137277451523262899371l_1.png
+  fonts: 
+    - family: Inter
+      fonts: 
+        - asset: assets/fonts/InterBlack.ttf
+          weight: 900
+        - asset: assets/fonts/InterMedium.ttf
+          weight: 500
